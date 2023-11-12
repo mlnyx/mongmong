@@ -16,15 +16,4 @@ public class Main {
         });
     }
 
-    public static void openGuide() {
-        SwingUtilities.invokeLater(() -> {
-            new Guide(); // 가이드 페이지 인스턴스를 생성합니다.
-        });
-    }
-
-    public static void openDogPage() {
-        SwingUtilities.invokeLater(() -> {
-            new DogPage();
-        });
-    }
 }
