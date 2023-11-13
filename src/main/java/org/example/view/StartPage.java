@@ -62,7 +62,8 @@ public class StartPage extends JFrame {
 
     private void goToMainPage() {
         System.out.println("메인 페이지로 이동합니다.");
-        // MainPage 클래스로 이동하는 로직 구현
+        dispose();
+        MainPage.main();
     }
 
     private void goToGuidePage() {
